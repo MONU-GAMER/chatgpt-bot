@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 
 load_dotenv("config.env")
 
-API_ID = int(getenv("API_ID", 0))
-API_HASH = getenv("API_HASH", "")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-OPENAI_API = getenv("OPENAI_API", "") # get api key : https://platform.openai.com/account/api-keys
+API_ID="21225665"
+API_HASH="4608eb30d16d9860aa0c4f5445ac4b63"
+BOT_TOKEN="5074293303:AAGQX4Fe3W0viiYqG5Vy7RJzmRr6GAcO-fw"
+OPENAI_API="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"
