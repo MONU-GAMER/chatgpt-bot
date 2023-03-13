@@ -33,7 +33,7 @@ async def chatgpt(c: Client, m: Message):
        return
     headers = {
         "Content-Type": "application/json",
-        "Authorization": f"Bearer {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}",
+        "Authorization": f"Bearer {a32UwJBUX0ZdFvzshU0yT3BlbkFJWYmiiZZLVvCdh42TnpA8}",
     }
 
     json_data = {
