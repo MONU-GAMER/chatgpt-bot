@@ -29,7 +29,7 @@
         "required": true
       },
       "OPENAI_API": {
-        "description": "get api key : openai.com",
+        "description": "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",
         "value": "",
         "required": true
       }
