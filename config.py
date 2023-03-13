@@ -1,4 +1,4 @@
-from os import getenv
+from os import os
 
 load_dotenv("config.env")
 
