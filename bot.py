@@ -22,9 +22,9 @@ if __name__ == "__main__":
 
 app = Client(
     name="app",
-    api_id=API_ID,
-    api_hash=API_HASH,
-    bot_token=BOT_TOKEN,
+    api_id=3755621,
+    api_hash=ok 86a96994dce114bb1b4bd4167c87a62b,
+    bot_token=5074293303:AAGQX4Fe3W0viiYqG5Vy7RJzmRr6GAcO-fw,
     plugins=plugins,
     workers=300,
 )
