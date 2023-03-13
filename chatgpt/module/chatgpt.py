@@ -18,6 +18,8 @@ from pyrogram import Client as ren
 from pyrogram.errors import MessageNotModified
 from chatgpt.module.what import *
 
+OPENAI_API = "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",
+
 @ren.on_message(filters.command("ask") & filters.private | filters.group)
 async def chatgpt(c: Client, m: Message):
     randydev = (
@@ -33,7 +35,7 @@ async def chatgpt(c: Client, m: Message):
        return
     headers = {
         "Content-Type": "application/json",
-        "Authorization": f"Bearer {a32UwJBUX0ZdFvzshU0yT3BlbkFJWYmiiZZLVvCdh42TnpA8}",
+        "Authorization": f"Bearer {OPENAI_API}",
     }
 
     json_data = {
