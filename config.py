@@ -1,5 +1,3 @@
-from os import os
-
 load_dotenv("config.env")
 
 API_ID="21225665"
